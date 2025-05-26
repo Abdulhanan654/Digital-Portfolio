@@ -21,16 +21,15 @@ Welcome to my digital portfolio! I am Abdul Hanan Shahid, a 2nd-year Computer Sc
 ## How to View
 1. Clone or download this repository to your local machine.
 2. Open `index.html` in a web browser (e.g., using VS Code's Live Server extension).
-3. Alternatively, visit the live site: [Insert Netlify URL here after deployment].
+3. Alternatively, visit the live site: [https://ahs-d-portfolio.netlify.app](https://ahs-d-portfolio.netlify.app).
 
 ## Deployment
-This portfolio is deployed using Netlify. Follow these steps to deploy your own copy:
-- Push changes to this GitHub repository.
-- Connect to Netlify, select this repo, and deploy with the `main` branch.
+This portfolio is deployed using Netlify.
 
 ## Contact
 - **Email**: [abbasiabdulhanan0321@gmail.com](mailto:abbasiabdulhanan0321@gmail.com)
 - **LinkedIn**: [linkedin.com/in/abdul-hanan-abbasi-2473b2215](https://www.linkedin.com/in/abdul-hanan-abbasi-2473b2215)
 - **GitHub**: [github.com/Abdulhanan654](https://github.com/Abdulhanan654)
 
+## License
 © 2025 Abdul Hanan Shahid. All rights reserved.
