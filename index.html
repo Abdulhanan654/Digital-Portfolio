@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>Abdul Hanan Shahid's Digital Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <!-- Header with Logo and Navigation -->
+  <header class="sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <!-- Replace the placeholder logo image in the header with a professional logo. 
+You can use a free logo from https://logo.clearbit.com/ or a simple SVG for a clean look. 
+Here's an example using a minimal SVG logo for "AHS": -->
+
+<a aria-label="Go to home section" class="flex items-center space-x-3" href="#home">
+  <span class="inline-block w-14 h-14 rounded-full border-2 border-cyan-400 shadow-lg bg-white flex items-center justify-center">
+    <!-- Simple SVG Logo: AHS in a circle -->
+    <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="22" cy="22" r="22" fill="#06b6d4"/>
+      <text x="50%" y="56%" text-anchor="middle" fill="white" font-size="18" font-family="Poppins, Arial, sans-serif" font-weight="bold" dy=".3em">AHS</text>
+    </svg>
+  </span>
+  <span class="text-3xl font-extrabold text-cyan-400 tracking-wide select-none drop-shadow-lg">
+    AHS Portfolio
+  </span>
+</a>
+      <nav>
+        <ul class="hidden md:flex space-x-10 font-semibold text-cyan-300">
+          <li><a class="hover:text-cyan-400 transition" href="#home">Home</a></li>
+          <li><a class="hover:text-cyan-400 transition" href="#about">About Me</a></li>
+          <li><a class="hover:text-cyan-400 transition" href="#skills">Skills</a></li>
+          <li><a class="hover:text-cyan-400 transition" href="#projects">Projects</a></li>
+          <li><a class="hover:text-cyan-400 transition" href="#writing">Writing</a></li>
+          <li><a class="hover:text-cyan-400 transition" href="#hobbies">Hobbies</a></li>
+          <li><a class="hover:text-cyan-400 transition" href="#contact">Contact</a></li>
+        </ul>
+        <button aria-label="Toggle menu" class="md:hidden text-cyan-300 focus:outline-none focus:ring-2 focus:ring-cyan-400" id="menu-btn">
+          <i class="fas fa-bars fa-lg"></i>
+        </button>
+      </nav>
+    </div>
+    <div class="hidden md:hidden" id="mobile-menu">
+      <ul class="flex flex-col space-y-3 px-6 py-6 font-semibold text-cyan-300">
+        <li><a class="block hover:text-cyan-400 transition" href="#home">Home</a></li>
+        <li><a class="block hover:text-cyan-400 transition" href="#about">About Me</a></li>
+        <li><a class="block hover:text-cyan-400 transition" href="#skills">Skills</a></li>
+        <li><a class="block hover:text-cyan-400 transition" href="#projects">Projects</a></li>
+        <li><a class="block hover:text-cyan-400 transition" href="#writing">Writing</a></li>
+        <li><a class="block hover:text-cyan-400 transition" href="#hobbies">Hobbies</a></li>
+        <li><a class="block hover:text-cyan-400 transition" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Home Section -->
+  <section class="min-h-screen flex flex-col justify-center items-center text-center px-6 relative overflow-hidden" id="home">
+    <h1 class="text-5xl md:text-6xl font-extrabold text-cyan-400 mb-3 drop-shadow-lg tracking-wide">
+      Abdul Hanan Shahid
+    </h1>
+    <span class="block mx-auto mt-2 w-32 h-1 rounded-full bg-gradient-to-r from-cyan-400 via-blue-400 to-indigo-400 animate-pulse"></span>
+    <p class="text-2xl md:text-3xl font-semibold text-cyan-300 mb-5 tracking-wide">
+      Computer Science Student | Backend & Systems Explorer
+    </p>
+    <p class="max-w-3xl text-cyan-200 italic text-xl md:text-2xl tracking-wide px-4">
+      "Driven by curiosity. I build, break, and rebuild to learn how things work."
+    </p>
+    <div aria-hidden="true" class="absolute -bottom-20 -right-20 w-96 h-96 rounded-full bg-gradient-to-tr from-cyan-500 to-blue-600 opacity-30 blur-3xl animate-blob"></div>
+    <div aria-hidden="true" class="absolute -top-24 -left-24 w-96 h-96 rounded-full bg-gradient-to-br from-purple-600 to-pink-500 opacity-30 blur-3xl animate-blob animation-delay-4000"></div>
+  </section>
+
+  <!-- About Me Section -->
+  <section class="max-w-5xl mx-auto px-6 py-20 bg-gradient-to-r from-cyan-900 via-blue-900 to-indigo-900 rounded-3xl shadow-2xl" id="about">
+    <h2 class="text-4xl font-extrabold text-cyan-400 mb-12 border-b-4 border-cyan-600 inline-block pb-3 drop-shadow-lg">
+      About Me
+    </h2>
+    <div class="space-y-12 text-cyan-100 text-lg leading-relaxed">
+      <div>
+        <h3 class="text-3xl font-semibold mb-3 text-cyan-300 drop-shadow-md">
+          Biography
+        </h3>
+        <p class="text-cyan-200">
+          I am Abdul Hanan Shahid, a 2nd-year Computer Science student at Bahria University, Rawalpindi. I thrive on tackling complex backend and systems challenges, always eager to dive deep into how things work under the hood. My learning philosophy is simple: the harder the problem, the more I grow.
+        </p>
+      </div>
+      <div>
+        <h3 class="text-3xl font-semibold mb-3 text-cyan-300 drop-shadow-md">
+          Academic Background
+        </h3>
+        <p class="text-cyan-200">
+          Currently pursuing a Bachelor of Science in Computer Science at Bahria University (Rawalpindi), expected to graduate in 2027. My coursework includes Digital Logic Design, Computer Organization, Assembly Language, and advanced programming.
+        </p>
+      </div>
+      <div>
+        <h3 class="text-3xl font-semibold mb-3 text-cyan-300 drop-shadow-md">
+          Technical Strengths & Soft Skills
+        </h3>
+        <p class="text-cyan-200">
+          Skilled in C++, Python, SQL, and backend frameworks. Experienced with databases, REST APIs, and systems programming. I value clear communication, teamwork, and time management—skills honed through collaborative and solo projects.
+        </p>
+      </div>
+      <div>
+        <h3 class="text-3xl font-semibold mb-3 text-cyan-300 drop-shadow-md">
+          Mindset
+        </h3>
+        <p class="text-cyan-200">
+          I’m not just a coder—I’m a builder and a problem solver. I enjoy exploring new technologies, automating workflows, and making things work better and faster.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="py-20 px-6 max-w-7xl mx-auto" id="skills">
+    <h2 class="text-4xl font-extrabold text-cyan-400 mb-14 border-b-4 border-cyan-600 inline-block pb-3 drop-shadow-lg text-center">
+      Skills
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-14 text-cyan-100">
+      <div class="bg-gradient-to-tr from-cyan-800 to-blue-900 rounded-2xl p-8 shadow-lg hover:scale-105 transform transition-transform duration-500">
+        <h3 class="text-3xl font-semibold mb-6 text-cyan-300 drop-shadow-md">
+          Programming Languages
+        </h3>
+        <ul class="space-y-3 list-disc list-inside text-lg">
+          <li>C++</li>
+          <li>Python</li>
+          <li>Assembly Language</li>
+        </ul>
+      </div>
+      <div class="bg-gradient-to-tr from-cyan-800 to-blue-900 rounded-2xl p-8 shadow-lg hover:scale-105 transform transition-transform duration-500">
+        <h3 class="text-3xl font-semibold mb-6 text-cyan-300 drop-shadow-md">
+          Web Development
+        </h3>
+        <ul class="space-y-3 list-disc list-inside text-lg">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </div>
+      <div class="bg-gradient-to-tr from-cyan-800 to-blue-900 rounded-2xl p-8 shadow-lg hover:scale-105 transform transition-transform duration-500">
+        <h3 class="text-3xl font-semibold mb-6 text-cyan-300 drop-shadow-md">
+          Databases & Data Handling
+        </h3>
+        <ul class="space-y-3 list-disc list-inside text-lg">
+          <li>SQL</li>
+        </ul>
+      </div>
+      <div class="bg-gradient-to-tr from-cyan-800 to-blue-900 rounded-2xl p-8 shadow-lg hover:scale-105 transform transition-transform duration-500">
+        <h3 class="text-3xl font-semibold mb-6 text-cyan-300 drop-shadow-md">
+          Tools & Technologies
+        </h3>
+        <ul class="space-y-3 list-disc list-inside text-lg">
+          <li>VS Code</li>
+          <li>Git</li>
+          <li>Arduino IDE</li>
+        </ul>
+      </div>
+      <div class="bg-gradient-to-tr from-cyan-800 to-blue-900 rounded-2xl p-8 shadow-lg hover:scale-105 transform transition-transform duration-500">
+        <h3 class="text-3xl font-semibold mb-6 text-cyan-300 drop-shadow-md">
+          Soft Skills
+        </h3>
+        <ul class="space-y-3 list-disc list-inside text-lg">
+          <li>Communication</li>
+          <li>Teamwork</li>
+          <li>Time Management</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects & Work Samples Section -->
+  <section class="max-w-7xl mx-auto px-6 py-24 bg-gradient-to-r from-indigo-900 via-blue-900 to-cyan-900 rounded-3xl shadow-2xl" id="projects">
+    <h2 class="text-5xl font-extrabold text-cyan-400 mb-20 border-b-4 border-cyan-600 inline-block pb-3 drop-shadow-lg text-center tracking-wide">
+      Projects & Work Samples
+    </h2>
+    <div class="grid gap-16 md:grid-cols-2 lg:grid-cols-3">
+      <!-- Backend API Project -->
+      <article class="bg-gradient-to-tr from-gray-900 to-cyan-800 rounded-3xl shadow-2xl overflow-hidden flex flex-col hover:scale-105 hover:shadow-cyan-500/50 transition-transform duration-500">
+        <img alt="RESTful API Dashboard Screenshot" class="w-full h-56 object-cover" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=600&q=80" />
+        <div class="p-8 flex flex-col flex-grow text-cyan-100">
+          <h3 class="text-2xl font-bold mb-2 text-cyan-300 drop-shadow-md">Student Management REST API</h3>
+          <span class="inline-block bg-cyan-700 text-white text-xs px-3 py-1 rounded-full mb-4">Backend Project</span>
+          <p class="flex-grow mb-4 leading-relaxed text-cyan-200">
+            Designed and implemented a secure RESTful API for managing student records, authentication, and reporting. Built with Python (Flask) and PostgreSQL.
+          </p>
+          <ul class="mb-4 text-sm text-cyan-300 list-disc list-inside">
+            <li>JWT authentication & role-based access</li>
+            <li>CRUD operations with validation</li>
+            <li>Deployed on Heroku with CI/CD</li>
+          </ul>
+          <div class="flex items-center space-x-4 mt-auto">
+            <a href="#" class="btn-link flex items-center space-x-2 font-semibold text-cyan-300 hover:text-white">
+              <i class="fab fa-github fa-lg"></i>
+              <span>GitHub</span>
+            </a>
+          </div>
+        </div>
+      </article>
+      <!-- Project 1 -->
+      <article class="bg-gradient-to-tr from-cyan-700 to-blue-800 rounded-3xl shadow-2xl overflow-hidden flex flex-col hover:scale-105 hover:shadow-cyan-500/50 transition-transform duration-500">
+        <img alt="Bazooka Bombing Game Screenshot" class="w-full h-56 object-cover" src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80" />
+        <div class="p-8 flex flex-col flex-grow text-cyan-100">
+          <h3 class="text-2xl font-bold mb-2 text-cyan-300 drop-shadow-md">Bazooka Bombing</h3>
+          <span class="inline-block bg-cyan-600 text-white text-xs px-3 py-1 rounded-full mb-4">C++ Game</span>
+          <p class="flex-grow mb-4 leading-relaxed text-cyan-200">
+            A fast-paced 2D shooter where players must eliminate enemies while avoiding civilians. Features custom graphics, sound effects, and a scoring system.
+          </p>
+          <ul class="mb-4 text-sm text-cyan-300 list-disc list-inside">
+            <li>Developed using C++ and SFML</li>
+            <li>Designed all game assets and logic</li>
+            <li>Implemented collision detection and scoring</li>
+          </ul>
+          <div class="flex items-center space-x-4 mt-auto">
+            <a href="https://github.com/Abdulhanan654" target="_blank" class="btn-link flex items-center space-x-2 font-semibold text-cyan-300 hover:text-white">
+              <i class="fab fa-github fa-lg"></i>
+              <span>GitHub</span>
+            </a>
+            <a href="https://youtu.be/M9H90wDknF8" target="_blank" class="btn-link flex items-center space-x-2 font-semibold text-cyan-300 hover:text-white">
+              <i class="fas fa-external-link-alt"></i>
+              <span>Live Demo</span>
+            </a>
+          </div>
+        </div>
+      </article>
+      <!-- Project 2 -->
+      <article class="bg-gradient-to-tr from-cyan-700 to-blue-800 rounded-3xl shadow-2xl overflow-hidden flex flex-col hover:scale-105 hover:shadow-cyan-500/50 transition-transform duration-500">
+        <img alt="Snake Game (DLD Project) Screenshot" class="w-full h-56 object-cover" src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=600&q=80" />
+        <div class="p-8 flex flex-col flex-grow text-cyan-100">
+          <h3 class="text-2xl font-bold mb-2 text-cyan-300 drop-shadow-md">Snake Game (Digital Logic Design Project)</h3>
+          <span class="inline-block bg-indigo-600 text-white text-xs px-3 py-1 rounded-full mb-4">DLD / IoT Project</span>
+          <p class="flex-grow mb-4 leading-relaxed text-cyan-200">
+            Designed and implemented a classic Snake Game as a Digital Logic Design project, running on ESP32 hardware. Combined hardware logic concepts with software for real-time gameplay, web-based controls, and circuit simulation.
+          </p>
+          <ul class="mb-4 text-sm text-cyan-300 list-disc list-inside">
+            <li>ESP32 microcontroller & Arduino IDE</li>
+            <li>Web-based controller UI</li>
+            <li>Digital circuit simulation and real hardware implementation</li>
+            <li>Demonstrates logic gates, sequential circuits, and IoT integration</li>
+          </ul>
+          <div class="flex items-center space-x-4 mt-auto">
+            <a href="d:/OneDrive - Higher Education Commission/Demo Video.mp4" target="_blank" class="btn-link flex items-center space-x-2 font-semibold text-cyan-300 hover:text-white">
+              <i class="fas fa-external-link-alt"></i>
+              <span>Live Demo</span>
+            </a>
+            <a href="#" class="btn-link flex items-center space-x-2 font-semibold text-cyan-300 hover:text-white">
+              <i class="fab fa-github fa-lg"></i>
+              <span>GitHub</span>
+            </a>
+          </div>
+        </div>
+      </article>
+      <!-- Project 3 -->
+      <article class="bg-gradient-to-tr from-cyan-700 to-blue-800 rounded-3xl shadow-2xl overflow-hidden flex flex-col hover:scale-105 hover:shadow-cyan-500/50 transition-transform duration-500">
+        <img alt="Hospital Management System Screenshot" class="w-full h-56 object-cover" src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" />
+        <div class="p-8 flex flex-col flex-grow text-cyan-100">
+          <h3 class="text-2xl font-bold mb-2 text-cyan-300 drop-shadow-md">Hospital Management System</h3>
+          <span class="inline-block bg-indigo-600 text-white text-xs px-3 py-1 rounded-full mb-4">Desktop App</span>
+          <p class="flex-grow mb-4 leading-relaxed text-cyan-200">
+            A C++ application for managing hospital operations, including patient records, scheduling, and reporting. User-friendly interface and secure data handling.
+          </p>
+          <ul class="mb-4 text-sm text-cyan-300 list-disc list-inside">
+            <li>Patient & doctor management</li>
+            <li>Appointment scheduling</li>
+            <li>Data validation & security</li>
+          </ul>
+          <div class="flex items-center space-x-4 mt-auto">
+            <a href="#" class="btn-link flex items-center space-x-2 font-semibold text-cyan-300 hover:text-white">
+              <i class="fab fa-github fa-lg"></i>
+              <span>GitHub</span>
+            </a>
+          </div>
+        </div>
+      </article>
+      <!-- Project 4 -->
+      <article class="bg-gradient-to-tr from-cyan-700 to-blue-800 rounded-3xl shadow-2xl overflow-hidden flex flex-col hover:scale-105 hover:shadow-cyan-500/50 transition-transform duration-500">
+        <img alt="Scrambled Word Game Screenshot" class="w-full h-56 object-cover" src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80" />
+        <div class="p-8 flex flex-col flex-grow text-cyan-100">
+          <h3 class="text-2xl font-bold mb-2 text-cyan-300 drop-shadow-md">Scrambled Word Game</h3>
+          <span class="inline-block bg-purple-600 text-white text-xs px-3 py-1 rounded-full mb-4">Assembly Game</span>
+          <p class="flex-grow mb-4 leading-relaxed text-cyan-200">
+            A challenging word puzzle game built in Assembly (COAL), where players unscramble words under time pressure. Focused on low-level optimization.
+          </p>
+          <ul class="mb-4 text-sm text-cyan-300 list-disc list-inside">
+            <li>Assembly (COAL)</li>
+            <li>Timer and scoring system</li>
+            <li>Optimized for performance</li>
+          </ul>
+          <div class="flex items-center space-x-4 mt-auto">
+            <a href="#" class="btn-link flex items-center space-x-2 font-semibold text-cyan-300 hover:text-white">
+              <i class="fab fa-github fa-lg"></i>
+              <span>GitHub</span>
+            </a>
+          </div>
+        </div>
+      </article>
+      <!-- New Project Card: SkyVoyage Flight Reservation System -->
+      <article class="bg-gradient-to-tr from-cyan-700 to-blue-800 rounded-3xl shadow-2xl overflow-hidden flex flex-col hover:scale-105 hover:shadow-cyan-500/50 transition-transform duration-500">
+        <img alt="SkyVoyage Flight Reservation System Screenshot" class="w-full h-56 object-cover" src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" />
+        <div class="p-8 flex flex-col flex-grow text-cyan-100">
+          <h3 class="text-2xl font-bold mb-2 text-cyan-300 drop-shadow-md">SkyVoyage Flight Reservation System</h3>
+          <span class="inline-block bg-blue-700 text-white text-xs px-3 py-1 rounded-full mb-4">Full Stack Project</span>
+          <p class="flex-grow mb-4 leading-relaxed text-cyan-200">
+            Designed and developed a complete flight reservation system with both frontend and backend. Users can search, book, and manage flights. Data is securely stored and managed using SQL and PHP.
+          </p>
+          <ul class="mb-4 text-sm text-cyan-300 list-disc list-inside">
+            <li>Custom frontend for user-friendly booking</li>
+            <li>Backend with PHP and SQL database</li>
+            <li>Real-time seat availability and booking management</li>
+          </ul>
+          <div class="flex items-center space-x-4 mt-auto">
+            <a href="#" class="btn-link flex items-center space-x-2 font-semibold text-cyan-300 hover:text-white">
+              <i class="fab fa-github fa-lg"></i>
+              <span>GitHub</span>
+            </a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Writing & Contributions Section -->
+  <section class="py-20 px-6 max-w-5xl mx-auto" id="writing">
+    <h2 class="text-4xl font-extrabold text-cyan-400 mb-14 border-b-4 border-cyan-600 inline-block pb-3 drop-shadow-lg text-center">
+      Writing & Contributions
+    </h2>
+    <div class="space-y-14 text-cyan-100">
+      <article class="bg-gradient-to-tr from-cyan-800 to-blue-900 rounded-2xl shadow-lg p-8 hover:scale-105 transform transition-transform duration-500">
+        <h3 class="text-3xl font-semibold text-cyan-300 mb-4 drop-shadow-md">
+          Workshop: Introduction to Game Development with SFML
+        </h3>
+        <p class="mb-5 leading-relaxed text-cyan-200">
+          Delivered a workshop to junior students, inspiring them to explore game development through hands-on examples and practical tips using SFML.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Hobbies & Interests Section -->
+  <section class="max-w-5xl mx-auto px-6 py-20 bg-gradient-to-r from-blue-900 via-indigo-900 to-purple-900 rounded-3xl shadow-2xl" id="hobbies">
+    <h2 class="text-4xl font-extrabold text-cyan-400 mb-14 border-b-4 border-cyan-600 inline-block pb-3 drop-shadow-lg text-center">
+      Hobbies & Interests
+    </h2>
+    <div class="grid gap-14 md:grid-cols-2 text-cyan-100">
+      <div class="bg-gradient-to-tr from-purple-800 to-indigo-900 rounded-2xl p-8 shadow-lg flex flex-col items-center text-center hover:scale-105 transform transition-transform duration-500">
+        <h3 class="text-3xl font-semibold mb-3 text-cyan-300 drop-shadow-md">
+          Hiking
+        </h3>
+        <p class="text-cyan-200 leading-relaxed">
+          Exploring nature trails and challenging terrains to stay active and inspired.
+        </p>
+      </div>
+      <div class="bg-gradient-to-tr from-purple-800 to-indigo-900 rounded-2xl p-8 shadow-lg flex flex-col items-center text-center hover:scale-105 transform transition-transform duration-500">
+        <h3 class="text-3xl font-semibold mb-3 text-cyan-300 drop-shadow-md">
+          Movie Watching
+        </h3>
+        <p class="text-cyan-200 leading-relaxed">
+          Enjoying a variety of genres, from sci-fi to action, to unwind and spark creativity.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="py-20 px-6 max-w-3xl mx-auto text-center" id="contact">
+    <h2 class="text-4xl font-extrabold text-cyan-400 mb-10 border-b-4 border-cyan-600 inline-block pb-3 drop-shadow-lg">
+      Contact Me
+    </h2>
+    <p class="text-cyan-200 mb-10 text-lg max-w-xl mx-auto">
+      Feel free to reach out for internships, collaborations, or just to say hello!
+    </p>
+    <div class="space-y-8 text-cyan-300 text-lg">
+      <div class="flex items-center justify-center space-x-4">
+        <i class="fas fa-envelope fa-lg text-cyan-400 drop-shadow-lg"></i>
+        <a class="hover:text-cyan-400 font-semibold" href="mailto:abbasiabdulhanan0321@gmail.com">
+          abbasiabdulhanan0321@gmail.com
+        </a>
+      </div>
+      <div class="flex items-center justify-center space-x-10 text-cyan-400 text-3xl drop-shadow-lg">
+        <a aria-label="LinkedIn profile" class="hover:text-cyan-300 transition" href="https://www.linkedin.com/in/abdul-hanan-abbasi-2473b2215" rel="noopener noreferrer" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a aria-label="GitHub profile" class="hover:text-cyan-300 transition" href="https://github.com/Abdulhanan654" rel="noopener noreferrer" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+    <form action="https://formspree.io/f/your-form-id" class="mt-14 bg-gradient-to-tr from-cyan-800 to-blue-900 rounded-3xl shadow-2xl p-10 text-left" method="POST">
+      <h3 class="text-3xl font-semibold text-cyan-300 mb-8 drop-shadow-md">
+        Send a Message
+      </h3>
+      <label class="block mb-3 font-semibold text-cyan-300" for="name">
+        Name
+      </label>
+      <input class="w-full mb-6 px-5 py-3 rounded-xl border border-cyan-600 bg-cyan-900 text-cyan-100 placeholder-cyan-400 focus:outline-none focus:ring-2 focus:ring-cyan-400 transition" id="name" name="name" placeholder="Your full name" required="" type="text"/>
+      <label class="block mb-3 font-semibold text-cyan-300" for="email">
+        Email
+      </label>
+      <input class="w-full mb-6 px-5 py-3 rounded-xl border border-cyan-600 bg-cyan-900 text-cyan-100 placeholder-cyan-400 focus:outline-none focus:ring-2 focus:ring-cyan-400 transition" id="email" name="_replyto" placeholder="your.email@example.com" required="" type="email"/>
+      <label class="block mb-3 font-semibold text-cyan-300" for="message">
+        Message
+      </label>
+      <textarea class="w-full mb-8 px-5 py-3 rounded-xl border border-cyan-600 bg-cyan-900 text-cyan-100 placeholder-cyan-400 focus:outline-none focus:ring-2 focus:ring-cyan-400 transition" id="message" name="message" placeholder="Write your message here..." required="" rows="6"></textarea>
+      <button class="w-full bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-4 rounded-xl shadow-lg transition" type="submit">
+        Send
+      </button>
+    </form>
+  </section>
+
+  <footer class="bg-gradient-to-r from-cyan-900 via-blue-900 to-indigo-900 py-8 text-center text-cyan-400 text-sm select-none drop-shadow-lg">
+    © 2025 Abdul Hanan Shahid. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const sections = document.querySelectorAll("section");
+    const reveal = () => {
+      sections.forEach(section => {
+        const rect = section.getBoundingClientRect();
+        if(rect.top < window.innerHeight - 60) {
+          section.classList.add("visible");
+        }
+      });
+    };
+    window.addEventListener("scroll", reveal);
+    reveal();
+  });
+</script>
+</body>
+</html>
